@@ -1,0 +1,116 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #e8effc; /* light blue */
+    margin:0px;
+  }
+  
+  header {
+    padding: 30px;
+    text-align: center;
+    background-color: #5c87f4;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    color:#403683;
+  }
+  
+  /* Search bar styling */
+  #searchForm {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  #searchForm input[type="text"] {
+    width: calc(100% - 75px);
+    height: 36px;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  #searchForm button[type="submit"] {
+    width: 75px;
+    height: 36px;
+    background-color: #594caf;
+    color: #ffffff;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+  }
+  
+  #searchForm button[type="submit"]:hover {
+    background-color: #45a049;
+  }
+  
+  .scholarship .btn {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    background-color: #4CAF50;
+    color: #ffffff;
+    padding: 10px 20px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .scholarship .btn:hover {
+    background-color: #45a049;
+  }
+  
+  /* Cards styling */
+  
+  .card {
+    /* width: 100%; */
+    padding: 20px;
+    background-color: #9ab7ff;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+
+    color:rgb(162, 18, 245);
+  }
+  
+  .card h2 {
+    margin-top: 0;
+  }
+  
+  .card p {
+    margin-bottom: 20px;
+  }
+  
+  .card ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .card li {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+    color:rgb(196, 102, 251);
+  }
+  
+  .card li:last-child {
+    border-bottom: none;
+  }
+  
+  .card .btn {
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
