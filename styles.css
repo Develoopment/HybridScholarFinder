@@ -19,34 +19,33 @@
   /* Search bar styling */
   #searchForm {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     margin-bottom: 20px;
+    height:40px;
+    /* border:2px solid red; */
   }
   
   #searchForm input[type="text"] {
-    width: calc(100% - 75px);
-    height: 36px;
+    width: 60%;
+    height: 100%;
     padding: 10px;
-    margin-left: 27%;
-    margin-right: 0.2%;
     font-size: 16px;
     border: none;
     outline: none;
-    border-radius: 15px;
+    border-radius: 5px 0 0 5px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   }
   
   #searchForm button[type="submit"] {
     width: 75px;
-    height: 36px;
+    height: 100%;
     background-color: #393939;
     color: #ffffff;
     cursor: pointer;
     border: none;
     outline: none;
-    margin-right:25%;
-    border-radius: 5px;
+    border-radius: 0 5px 5px 0;
     transition: all 0.3s ease;
   }
   
